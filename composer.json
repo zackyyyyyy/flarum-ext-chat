@@ -1,17 +1,28 @@
 {
-    "name": "zacky/flarum-chat",
+    "name": "zackyyyyyy/flarum-ext-chat",
     "description": "Chat",
     "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zacky",
+            "email": "parkitecthub@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/zackyyyyyy/flarum-ext-chat/issues",
+        "source": "https://github.com/zackyyyyyy/flarum-ext-chat"
+    },
     "require": {
-        "flarum/core": "^0.1.0-beta.3"
+        "flarum/core": "^0.1.0-beta.5"
     },
     "extra": {
         "flarum-extension": {
             "title": "Chat",
             "icon": {
                 "name": "comments",
-                "backgroundColor": "#ECF0F1",
-                "color": "#2C3E50"
+                "backgroundColor": "#3b5998",
+                "color": "#fff"
             }
         }
     }

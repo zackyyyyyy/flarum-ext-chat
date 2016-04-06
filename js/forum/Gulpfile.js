@@ -2,7 +2,7 @@ var flarum = require('flarum-gulp');
 
 flarum({
   modules: {
-    'zacky/chat': [
+    'zackyyyyyy/flarum-ext-chat': [
       'src/**/*.js'
     ]
   }

@@ -1,12 +1,12 @@
-System.register('zacky/chat/main', ['flarum/extend', 'flarum/components/IndexPage'], function (_export) {
-  'use strict';
+'use strict';
 
+System.register('zacky/chat/main', ['flarum/extend', 'flarum/components/IndexPage'], function (_export, _context) {
   var extend, IndexPage;
   return {
     setters: [function (_flarumExtend) {
       extend = _flarumExtend.extend;
     }, function (_flarumComponentsIndexPage) {
-      IndexPage = _flarumComponentsIndexPage['default'];
+      IndexPage = _flarumComponentsIndexPage.default;
     }],
     execute: function () {
 
